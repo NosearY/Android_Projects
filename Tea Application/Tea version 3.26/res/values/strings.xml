@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidDashboardDesignActivity!</string>
+    <string name="app_name">老曼峨</string>
+    <string name="title_activity_aboutus_activity1">AboutusActivity1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_aboutus_activity2">AboutusActivity2</string>
+    <string name="title_activity_aboutus_activity3">AboutusActivity3</string>
+    <string name="title_activity_tab_aboutus_widget">TabAboutusWidget</string>
+    <string name="title_activity_culture_activity1">CultureActivity1</string>
+    <string name="title_activity_culture_activity2">CultureActivity2</string>
+    <string name="title_activity_culture_activity3">CultureActivity3</string>
+    <string name="title_activity_tab_culture_widget">TabCultureWidget</string>
+    <string name="title_activity_brand_activity1">BrandActivity1</string>
+    <string name="title_activity_brand_activity2">BrandActivity2</string>
+    <string name="title_activity_tab_brand_widget">TabBrandWidget</string>
+    <string name="menu_zoom_enable">Enable Zoom</string>
+    <string name="menu_zoom_disable">Disable Zoom</string>
+    <string name="menu_scale_fit_center">Change to FIT_CENTER</string>
+    <string name="menu_scale_fit_start">Change to FIT_START</string>
+    <string name="menu_scale_fit_end">Change to FIT_END</string>
+    <string name="menu_scale_fit_xy">Change to FIT_XY</string>
+    <string name="menu_scale_center">Change to CENTER</string>
+    <string name="menu_scale_center_inside">Change to CENTER_INSIDE</string>
+    <string name="menu_scale_center_crop">Change to CENTER_CROP</string>
+    <string name="title_activity_sale_activity1">SaleActivity1</string>
+    <string name="title_activity_sale_activity2">SaleActivity2</string>
+    <string name="title_activity_sale_activity3">SaleActivity3</string>
+    <string name="title_activity_tab_sale_widget">TabSaleWidget</string>
+    <string name="title_activity_product_activity1">ProductActivity1</string>
+    <string name="title_activity_product_activity2">ProductActivity2</string>
+    <string name="title_activity_product_activity3">ProductActivity3</string>
+    <string name="title_activity_tab_product_widget">TabProductWidget</string>
+    <string name="searching">正在查询，请稍等...</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新...</string>
+    <string name="pull_to_refresh_tap_label">正在查询，请稍等...</string>
+    <string name="pull_to_refresh_footer_label">松开加载更多...</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多...</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中...</string>
+    <string name="refresh_down_text">下拉刷新</string>
+    <string name="refresh_release_text">松开后刷新</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="title_activity_tab_news_widget">TabNewsWidget</string>
+    <string name="title_activity_news_activity1">NewsActivity1</string>
+    <string name="title_activity_news_activity2">NewsActivity2</string>
+    <string name="aboutus1">走进老曼峨</string>
+    
+
+</resources>

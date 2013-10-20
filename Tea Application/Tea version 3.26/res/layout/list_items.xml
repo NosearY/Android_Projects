@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout   
+    android:id="@+id/RelativeLayout01"   
+    android:layout_width="fill_parent"   
+    xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:layout_height="wrap_content"   
+    android:paddingBottom="4dip"   
+    android:paddingLeft="12dip"  
+    android:paddingRight="12dip"
+    android:background="@drawable/list_bg">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dip" 
+        android:paddingLeft="12dip" >
+
+        <TextView
+            android:id="@+id/ItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView01"
+            android:textColor="#000000"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/ItemTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView01"
+            android:textColor="#000000"
+            android:textSize="10dip" />
+    </LinearLayout>
+
+</LinearLayout>  
+<ImageView   
+    android:paddingTop="5dip"  
+    android:layout_marginTop="20px"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"   
+    android:id="@+id/last"  
+    />  
+</RelativeLayout>  

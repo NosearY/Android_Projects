@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tea.activity.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+      <uses-sdk
+        android:minSdkVersion="13"/>
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" 
+       	android:theme="@style/MyCustomTheme">
+        <activity
+            android:name="com.tea.activity.main.AndroidDashboardDesignActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dashboard Activity -->
+        <activity android:name="com.tea.activity.main.GuideViewDemoActivity" >
+        </activity>
+
+        <!-- News Feed Activity -->
+        <activity android:name="com.tea.activity.main.NewsFeedActivity" >
+        </activity>
+
+        <!-- Friends Activity -->
+        <activity android:name="com.tea.activity.main.FriendsActivity" >
+        </activity>
+
+        <!-- Messages Activity -->
+        <activity android:name="com.tea.activity.main.MessagesActivity" >
+        </activity>
+
+        <!-- Places Activity -->
+        <activity android:name="com.tea.activity.main.PlacesActivity" >
+        </activity>
+
+        <!-- Events Activity -->
+        <activity android:name="com.tea.activity.main.EventsActivity" >
+        </activity>
+
+        <!-- Photos Activity -->
+        <activity android:name="com.tea.activity.main.PhotosActivity" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.aboutus.AboutusActivity1"
+            android:label="@string/title_activity_aboutus_activity1" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.aboutus.AboutusActivity2"
+            android:label="@string/title_activity_aboutus_activity2" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.aboutus.AboutusActivity3"
+            android:label="@string/title_activity_aboutus_activity3" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.aboutus.TabAboutusWidget"
+            android:label="@string/title_activity_tab_aboutus_widget"
+            android:theme="@style/MyCustomTheme">
+        </activity>
+        <activity
+            android:name="com.tea.activity.culture.CultureActivity1"
+            android:label="@string/title_activity_culture_activity1" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.culture.CultureActivity2"
+            android:label="@string/title_activity_culture_activity2" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.culture.CultureActivity3"
+            android:label="@string/title_activity_culture_activity3" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.culture.TabCultureWidget"
+            android:label="@string/title_activity_tab_culture_widget"
+          >
+        </activity>
+        <activity
+            android:name="com.tea.activity.brand.BrandActivity1"
+            android:label="@string/title_activity_brand_activity1" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.brand.BrandActivity2"
+            android:label="@string/title_activity_brand_activity2" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.brand.TabBrandWidget"
+            android:label="@string/title_activity_tab_brand_widget"
+            >
+        </activity>
+        <activity
+            android:name="com.tea.activity.sale.SaleActivity1"
+            android:label="@string/title_activity_sale_activity1" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.sale.SaleActivity2"
+            android:label="@string/title_activity_sale_activity2" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.sale.SaleActivity3"
+            android:label="@string/title_activity_sale_activity3" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.sale.TabSaleWidget"
+            android:label="@string/title_activity_tab_sale_widget"
+            >
+        </activity>
+        <activity
+            android:name="com.tea.activity.product.ProductActivity1"
+            android:label="@string/title_activity_product_activity1" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.product.ProductActivity2"
+            android:label="@string/title_activity_product_activity2" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.product.ProductActivity3"
+            android:label="@string/title_activity_product_activity3" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.product.TabProductWidget"
+            android:label="@string/title_activity_tab_product_widget"
+           >
+        </activity>
+        <activity
+            android:name="com.tea.activity.main.ContentActivity"
+            android:label="@string/title_activity_content"
+             >
+        </activity>
+        <activity
+            android:name="com.tea.activity.news.TabNewsWidget"
+            android:label="@string/title_activity_tab_news_widget" 
+         >
+        </activity>
+        <activity
+            android:name="com.tea.activity.news.NewsActivity1"
+            android:label="@string/title_activity_news_activity1" >
+        </activity>
+        <activity
+            android:name="com.tea.activity.news.NewsActivity2"
+            android:label="@string/title_activity_news_activity2" >
+        </activity>
+    </application>
+
+</manifest>

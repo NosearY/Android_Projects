@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fe"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <ScrollView
+    		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent"
+    		android:scrollbars="vertical">
+          <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dip" 
+            android:orientation="vertical" >
+
+            <ImageView
+               android:id="@+id/image1"
+               android:layout_width="match_parent"
+               android:layout_height="200dip"
+               android:scaleType="fitXY"
+               android:src="@drawable/aboutus" >
+              </ImageView>
+            
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/gray"
+                android:singleLine="false"
+                android:scrollbars="vertical"
+                android:text="勐海班章茶叶有限责任公司位于著名的普洱茶之乡云南西双版纳勐海县城，勐海是世界茶树发源地中心地带之一。公司紧紧依托勐海地区古茶园的资源优势，拥有布朗山、班章山、老曼峨等优质的古茶原料基地。公司厂房环境优美、设备先进、技术精良，拥有一流的生产技术人才。公司打造的“老曼峨”品牌系列，选料上乘，品质纯正。其生茶外形美观，香气飘扬，品味悠长且经久耐泡；熟茶香味醇浓，汤色红亮，口感顺滑，是云南普洱茶中的精品。\n
+       “高品质源于班章造”。班章茶叶有限责任公司一直秉承“追求卓越，勇攀新高”的企业精神，以弘扬普洱茶文化，开拓普洱茶产业为企业使命，“做真本色人，做高品质茶”。公司遵循现代企业管理模式，秉持以营销为导向的品牌推广理念，成立专门的营销机构“百纳营销中心”，全面深入推广“老曼峨”普洱茶品牌。凭借优良的茶叶品质和先进的营销理念，“老曼峨”普洱茶获得了广大消费者的青睐，并为更多普洱茶爱好者所喜爱；其市场占有率不断提高，营销网络遍布全国和东南亚国家，成为茶业行业一个著名品牌。\n
+       “普洱茶品，班章至尊”，我们将一如既往，不断进取，生产更优质的普洱茶品回馈广大茶叶爱好者，让天下茶人都能赏班章茶、品班章茶、藏班章茶。"
+                android:textColor="@color/white"
+                android:textSize="20sp" >
+            	 </TextView>
+          
+        	</LinearLayout>
+		</ScrollView>	
+
+</LinearLayout>

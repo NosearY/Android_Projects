@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" >
+
+   <LinearLayout
+        android:id="@+id/news_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:background="@drawable/news_item_bg"
+        android:orientation="vertical">
+           <RelativeLayout   
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content" >   
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="97dp"
+            android:background="@drawable/word2"
+            android:minHeight="35dp"
+            android:minWidth="35dp" />
+            
+        <ImageView
+            android:id="@+id/news_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>  
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:singleLine="false"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
